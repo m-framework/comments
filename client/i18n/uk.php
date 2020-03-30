@@ -1,0 +1,21 @@
+<?php
+return array (
+  'your comment' => 'Ваш коментар',
+  'article comments' => 'Коментарі до статті',
+  'to delete comment' => 'Видалити коментар',
+  'to clear your comment' => 'Очистити ваш коментар',
+  'Reply' => 'Відповісти',
+  'as answer to' => 'У відповідь на',
+  'comment of user' => 'коментар користувача',
+  'comments' => 'Коментарі',
+  'write a comment and press Enter' => 'Напишіть коментар та натисніть Enter щоб його відправити',
+  'to comment' => 'Коментувати',
+  'Users comments' => 'Коментарі користувачів',
+  'Type your comment here and press Enter' => 'Введіть сюди Ваш коментар та натисніть Enter',
+  'Sorry you cant to leave a comment' => 'Вибачте, Ви не можете залишити коментар',
+  'Are you sure to delete this comment' => 'Ви точно хочете видалити цей коментар',
+  'edited' => 'редаговано',
+  'at' => 'о',
+  '' => '',
+  'Try to authorize yourself via login and password or use a one of social networks below' => 'Спробуйте авторизуватись за допомогою логіну та паролю або скористайтеся однією з соціальних мереж',
+);

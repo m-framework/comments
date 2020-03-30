@@ -1,0 +1,100 @@
+.comment-form {
+    display: block;
+    padding: 3px;
+    background-color: #fcfcfc;
+    border: solid 1px #ededed;
+    border-radius: 3px;
+    color: #666;
+    min-height: 60px;
+}
+.replies .comment-form {
+    margin-top: 10px;
+    min-height: 36px;
+}
+.comment-form[contenteditable="true"]:empty:before{
+    content: attr(data-m-placeholder);
+    color: #999;
+}
+.comment {
+    display: table;
+    border-radius: 2px;
+    border: solid 1px #eee;
+    padding: 0;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 12px;
+}
+.comment + .replies {
+    display: block;
+    width: auto;
+    margin-left: 30px;
+}
+.comment .img,
+.comment .comment-data
+{
+    display: table-cell;
+    vertical-align: top;
+    padding: 5px;
+    color: #666;
+    position: relative;
+}
+.comment .img {
+    width: 50px;
+}
+.comment .comment-data .name,
+.comment .comment-data .date
+{
+    display: inline-block;
+    width: 50%;
+}
+.comment .comment-data .name {
+    color: #000;
+}
+.comment .comment-data .name {
+    color: #000;
+}
+.comment .comment-data .date {
+    text-align: right;
+    color: #999;
+    font-size: 11px;
+}
+.comment .comment-data .comment-body {
+    margin: 5px 0 0 0;
+}
+.comment .comment-data .options {
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+	min-width: 90px;
+    text-align: right;
+}
+.comment .comment-data .options a {
+    display: inline-table;
+    width: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    border: solid 1px #ededed;
+    cursor: pointer;
+    color: #999;
+    text-align: center;
+    border-radius: 2px;
+	margin-right: 10px;
+    background-color: #fff;
+}
+.comment .comment-data .options a:not([style*="display: none"]):last-child {
+	margin-right: 0;
+}
+.comment + .replies {
+	display: block;
+	float: none;
+	clear: both
+}
+.comment  div.img img {
+	width: 100%;
+}
+.comment .comment-data .options a:hover {
+    border: solid 1px #2b7aa7;
+    color: #fff;
+    background-color: #2a8abf;
+}

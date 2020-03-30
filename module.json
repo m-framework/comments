@@ -1,0 +1,16 @@
+{
+  "title":"Comments",
+  "name":"comments",
+  "description":"Module for adding to the site a comments functionality for publications, news, shop items etc.",
+  "icon":"<i class=\"fa fa-comments-o\"></i>",
+  "version":"1.0",
+  "date":"2017-09-20",
+  "author":"mrinmiro@gmail.com",
+  "compatible_cores":["1.0"],
+  "dashboard_menu":{
+    "/overview":"<i class=\"fa fa-comments-o\"></i> *Comments overview*"
+  },
+  "tags":["comments","publications comments","articles comments","news comments","items comments"],
+  "price":"0",
+  "":""
+}
